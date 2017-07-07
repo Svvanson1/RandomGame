@@ -1,5 +1,5 @@
 package mainPackage;
-//test
+
 import java.awt.Canvas;
 import java.awt.Color;
 import java.awt.Graphics;
@@ -17,7 +17,6 @@ public class Game extends Canvas implements Runnable {
 	
 	private Random r;
 	private Handler handler;
-	
 	
 	public Game() {
 		new Window(WIDTH, HEIGHT, "My game", this);
